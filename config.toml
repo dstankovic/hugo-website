@@ -1,4 +1,4 @@
-baseURL = "https://dulerock.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Dušan Stanković"
 theme = "minimal"
