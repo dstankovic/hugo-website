@@ -13,6 +13,7 @@ After working in Gtech for 2 years on various projects, I decided to change my p
 #### What else I do
 I like to teach people programming. I believe that in this new economy everyone can benefit from coding and in the future it is going to be a everyday tool of any human. So far I held few javascript courses for unemployed in Serbia, NodeJS course for students in Namibia. 
 Beside that I like to talk and discuss technology, especially one that could potentially improve our lives like blockchain or AI.
+Ocassionally I do some other tech related [workshops/talks](/talks).
 
 <br/>
 #### Want to work together?
