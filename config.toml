@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Dušan Stanković"
 theme = "minimal"
-googleAnalytics = ""
+googleAnalytics = "UA-38470685-1"
 
 [params]
     author = "Dušan"
