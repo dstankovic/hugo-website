@@ -2,8 +2,9 @@
 title: About me
 ---
 
-### Long story short
+### Tagline
 I'm software engineer currently based in Berlin, Germany. I work for ESCRIBA where I rewrite their old Struts applications into new frameworks like Angular/React.
+
 
 
 ### Experience
