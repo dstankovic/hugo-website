@@ -1,0 +1,9 @@
+{{ partial "header" . }}
+
+<main>
+    <h2>{{.Title}}</h2>
+    <h5>{{ .Date.Format "Jan 2, 2006" }}</h5>
+    <br> <div class="text-justify">{{ .Content }}</div>
+
+    
+</main>

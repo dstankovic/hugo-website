@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+
+<main>
+
+    <div class="intro">
+
+        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
+        <div class="title">
+            <h2>{{ .Site.Title }}</h2>
+            <h4>{{ .Site.Params.Description }}</h4>
+        </div>
+
+
+        <p>
+           Software engeneer, based in Berlin, Germany. Jack of all the trades. Codes in Javascript and Golang unless playing with other stuff.
+           That other stuff at the moment are blockchain, data visualisation and various web tools. Check out <a href="/about">About</a> section if you want to find out more and potentially work together
+
+        </p>
+        
+        <iframe id="game" class="game" src="/game"></iframe>
+    
+    </div>
+
+</main>
+
+{{ partial "footer" . }}

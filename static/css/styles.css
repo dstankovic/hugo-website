@@ -1,0 +1,52 @@
+.workshop, .item{
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.workshop .content{
+    max-width: 500px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #888;
+}
+
+.workshop .icons i{
+    font-size: 25px;
+    padding: 0 10px;
+}
+.workshop .icons i:hover{
+    cursor: pointer;
+    color: #303F9F;
+}
+
+.item-tag{
+    border-radius: 50px;
+}
+
+.intro .title{
+    margin-bottom: 40px;
+}
+
+.intro .title > h1 {
+    color: #212121;
+    font-size: 12vh;
+}
+
+.intro .title > h2 {
+    font-size: 3vmin;
+}
+
+.intro > p {
+    color: #888;
+    text-align: justify;
+    font-size: 1.8vmin;
+}
+
+
+.game{
+    max-width: 600px;
+    height: 180px;
+    width: 100%;
+    border: none;
+}

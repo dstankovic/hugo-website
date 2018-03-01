@@ -1,0 +1,36 @@
+{{ partial "header" . }}
+
+<main>
+
+    {{ range .Pages }}
+        <div class="workshop">
+            <h4>{{.Title}}</h4>
+            <h5>{{.Date.Format "January 2, 2006"}} - <a target="_blank" href="https://www.google.com/maps/search/{{.Params.location}}">{{.Params.location}}</a></h5>
+            <div class="content">
+                {{.Content}}
+            </div>
+            <div class="icons">
+                {{if .Params.video }}
+                    <a target="_blank" href="{{ .Params.video }}">
+                        <i class="fa fa-video-camera"></i>
+                    </a>
+                {{end}}
+                {{if .Params.repo }}
+                    <a target="_blank" href="{{ .Params.repo }}">
+                        <i class="fa fa-github"></i>
+                    </a>
+                {{end}}
+                {{if .Params.slides }}
+                    <a target="_blank" href="{{ .Params.slides }}">
+                        <i class="fa fa-file-powerpoint-o"></i>
+                    </a>
+                {{end}}
+            </div>
+
+
+        </div>
+    {{ end }}
+
+</main>
+
+{{ partial "footer" . }}
