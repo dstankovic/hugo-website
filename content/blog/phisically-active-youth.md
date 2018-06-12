@@ -1,7 +1,6 @@
 ---
 title: First time in Africa - Namibia
-date: 2018-06-12
-draft: false
+date: 2018-06-11
 tags: ["travel", "life"]
 ---
 
