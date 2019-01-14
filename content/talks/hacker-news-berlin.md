@@ -4,7 +4,7 @@ date: 2018-03-13
 draft: false
 tags: []
 location: "Berlin, Germany"
-video: ""
+video: "https://www.youtube.com/watch?v=iLErsmllF6U"
 repo: "https://github.com/dstankovic/hacker-news-meetup"
 slides: "/public/Free chatbots in 20ish minutes.pdf"
 ---
